@@ -1,6 +1,12 @@
 # Music Genre Classification
 Website where user can record audio or upload pre-existing audio file in order to know the genre of the music.
 
+For audio and music feature extraction for machine learning purposes, usually mel-frequency cepstral coefficients (MFCCs) are extracted from the song or audio. These features are used to train the model.
+TensorFlow: Machine learning software library.
+Librosa: Speech processing library to extract features from songs.
+NumPy: Mathematical model for scientific computing.
+Scikit-learn (formerly scikits.learn and also known as sklearn): Another machine learning model (we’ll use this library to split training and testing data).
+JSON: Used to “jsonify” the dataset (explained in the next section).
 
 
 # Model Training 
